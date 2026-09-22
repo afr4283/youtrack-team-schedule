@@ -1,0 +1,32 @@
+{
+  "title": "Team Allocation Schedule Settings",
+  "description": "Configure UI language and user groups for the application.",
+  "type": "object",
+  "properties": {
+    "language": {
+      "title": "Application Language",
+      "type": "string",
+      "description": "Select the UI language for the schedule application (en, pl, de, es).",
+      "enum": ["en", "pl", "de", "es"],
+      "default": "en"
+    },
+    "managerGroup": {
+      "title": "Managers Group Name",
+      "type": "string",
+      "description": "Name of the YouTrack user group with manager privileges (edit access).",
+      "default": "Managers"
+    },
+    "workerGroup": {
+      "title": "Workers Group Name",
+      "type": "string",
+      "description": "Name of the YouTrack user group with worker privileges (view-only access).",
+      "default": "Employees"
+    },
+    "absenceProjectName": {
+      "title": "Absence / Leave Item Name",
+      "type": "string",
+      "description": "Label displayed in the project selector for vacation/leave days.",
+      "default": "[VACATION] Leave / Absence"
+    }
+  }
+}

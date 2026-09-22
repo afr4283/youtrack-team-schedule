@@ -1,0 +1,22 @@
+{
+  "key": "team-schedule",
+  "name": "team-schedule",
+  "title": "Team schedule",
+  "version": "4.1.7",
+  "author": "Adam Frankowski (ISEC)",
+  "description": "Schedule for assiging team members to active projects.",
+  "settings": "settings.json",
+  "widgets": [
+    {
+      "key": "schedule-main-page",
+      "name": "Team schedule",
+      "indexPath": "index.html",
+      "place": "MAIN_MENU_ITEM"
+    }
+  ],
+  "scripts": [
+    "backend.js"
+  ]
+}
+
+
