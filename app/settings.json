@@ -1,0 +1,37 @@
+{
+  "title": "Team Allocation Schedule Settings",
+  "description": "Configure UI language and user groups for the application. Who can open the app is controlled by the app's Visibility setting.",
+  "type": "object",
+  "properties": {
+    "language": {
+      "title": "Application Language",
+      "type": "string",
+      "description": "Select the UI language for the schedule application (en, pl, de, es).",
+      "enum": [
+        "en",
+        "pl",
+        "de",
+        "es"
+      ],
+      "default": "en"
+    },
+    "managerGroup": {
+      "title": "Managers Group Name",
+      "type": "string",
+      "description": "Name of the YouTrack user group whose members can edit the schedule and see weekly notes.",
+      "default": "Managers"
+    },
+    "workerGroup": {
+      "title": "Workers Group Name",
+      "type": "string",
+      "description": "Name of the YouTrack user group whose members are listed as rows in the schedule. Everyone allowed by the app's Visibility setting can view the schedule (read-only).",
+      "default": "Employees"
+    },
+    "absenceProjectName": {
+      "title": "Absence / Leave Item Name",
+      "type": "string",
+      "description": "Label displayed in the project selector for vacation/leave days.",
+      "default": "[VACATION] Leave / Absence"
+    }
+  }
+}

@@ -1,1 +1,22 @@
-
+{
+  "key": "team-schedule",
+  "name": "team-schedule",
+  "title": "Team schedule",
+  "version": "4.5.0",
+  "minYouTrackVersion": "2025.3.0",
+  "author": "Adam Frankowski (ISEC)",
+  "description": "Schedule for assigning team members to active projects.",
+  "settings": "settings.json",
+  "widgets": [
+    {
+      "key": "schedule-main-page",
+      "name": "Team schedule",
+      "indexPath": "index.html",
+      "place": "MAIN_MENU_ITEM",
+      "extensionPoint": "MAIN_MENU_ITEM"
+    }
+  ],
+  "scripts": [
+    "backend.js"
+  ]
+}

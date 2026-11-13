@@ -1,0 +1,21 @@
+{
+  "entityTypeExtensions": [
+    {
+      "entityType": "AppGlobalStorage",
+      "properties": {
+        "scheduleData": {
+          "type": "string"
+        },
+        "configData": {
+          "type": "string"
+        },
+        "directoryData": {
+          "type": "string"
+        },
+        "holidaysData": {
+          "type": "string"
+        }
+      }
+    }
+  ]
+}
